@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# منصة تفوق التعليمية (Manasa Edu)
 
-# Run and deploy your AI Studio app
+منصة تعليمية عربية حديثة تهدف لربط طلاب الثانوية العامة بأفضل المعلمين ومصادر المراجعة.
 
-This contains everything you need to run your app locally.
+## المميزات
+- تصفح المدرسين حسب المادة.
+- لوحة تحكم للمدير لإضافة المراجعات (PDF / فيديو) وتغيير صور المعلمين.
+- صفحة مخصصة للطلاب لتحميل المراجعات.
+- نظام تسجيل دخول وحسابات بسيط (يعتمد على التخزين المحلي LocalStorage).
+- تصميم متجاوب (Responsive) وعصري.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JoE7EYh5f_ZBxjgWLu51tTnrM3_sNOKN
+## التقنيات المستخدمة
+- React.js
+- Tailwind CSS
+- Framer Motion (للأنيميشن)
+- Lucide React (للأيقونات)
+- TypeScript
 
-## Run Locally
+## طريقة التشغيل على جهازك
 
-**Prerequisites:**  Node.js
+1. حمل الملفات.
+2. افتح التيرمينال (Terminal) واكتب الأمر التالي لتثبيت المكتبات:
+   ```bash
+   npm install
+   ```
+3. لتشغيل الموقع:
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ملاحظة
+هذا المشروع يستخدم `localStorage` لتخزين البيانات، مما يجعله مثالياً للعرض (Portfolio) والتجربة الشخصية. للاستخدام الفعلي المتزامن بين عدة مستخدمين، يحتاج لربطه بقاعدة بيانات (Backend).
